@@ -7,6 +7,7 @@ import App from './App.tsx'
 import Counter from './Counter/counter.tsx'  
 import ContactForm from './Contact_Form/contactform.tsx'  
 import UseCounterPage from './useCounter/UseCounterPage.tsx' 
+import ProgressBar from './Progress_Bars/progress_bars.tsx' 
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/counter" element={<Counter />} />
         <Route path="/contactform" element={<ContactForm />} />
         <Route path="/usecounterpage" element={<UseCounterPage />} />
+        <Route path="/progressbars" element={<ProgressBar />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+
+.bar {
+  height: 20px;
+  width: 0%;
+  background-color: #4caf50;
+
+  transition: width 2000ms linear;
+}
+
+.progress-container {
+  width: 100%;
+  height: 20px;
+  background-color: #dbdbdb;
+
+  overflow: hidden;
+}

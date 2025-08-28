@@ -28,11 +28,17 @@ function App() {
         </p>
       </div>
 
-<h1>Greatfrontend submissions</h1>
-       <Link to="/counter">Go to counter.tsx</Link>
-       
-       <Link to="/contactform">Go to contacform.jsx</Link>
-       <Link to="/usecounterpage">Go to usecounter.jsx</Link>
+<h1>My Greatfrontend submissions</h1>
+<nav className="nav-links">
+  <Link to="/counter">Counter</Link>
+  <Link to="/contactform">Contact Form</Link>
+  <Link to="/usecounterpage">useCounter</Link>
+
+  <Link to="/progressbars">Progress Bars</Link>
+</nav>
+
+     
+     
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
