@@ -35,6 +35,7 @@ function App() {
   <Link to="/usecounterpage">useCounter</Link>
 
   <Link to="/progressbars">Progress Bars</Link>
+  <Link to="/useboolean">UseBoolean</Link>
 </nav>
 
      
